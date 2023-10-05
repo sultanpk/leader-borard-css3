@@ -6,6 +6,29 @@ body{
     background-color: #F3F1FF;
 
 }
+.header{
+    justify-content: space-around;
+    display: flex;
+    background-color: #FF4A60;
+    width: 1440;
+    height: 94;
+}
+.header-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    }
+.header-contents{
+    justify-content: space-between;
+    width: 51px;
+    height: 51px;
+}
+.text{
+    justify-content: space-between;
+    display: inline-flex;
+    align-items: center;
+}
 main{
     display: flex;
     flex-direction: column;
